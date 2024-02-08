@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./home-user.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home-user">
+      <img class="arrow-down-icon2" alt="" src="./public/arrowdown.svg" />
+
+      <div class="frame-with-label"></div>
+      <div class="labeled-frame-with-line"></div>
+      <div class="l-i-n-e-a-n-d-a-r-r-o-w">
+        <div class="l-i-n-e-a-n-d-a-r-r-o-w-child"></div>
+        <b class="guided-journey3">GUIDED JOURNEY</b>
+        <div class="profile-frame">
+          <div class="welcome-joh-doe" id="welcomeJohDoe">Welcome Joh Doe</div>
+          <img
+            class="face-8527163-1280-1-icon"
+            alt=""
+            src="./public/face8527163-1280-1@2x.png"
+            id="face852716312801Icon"
+          />
+        </div>
+      </div>
+      <div class="input-field-set">
+        <div class="question-area-parent">
+          <div class="question-area">
+            <b class="hey-john">Hey John! 😊</b>
+            <div class="its-really-exciting">
+              It’s really exciting that you’re embarking on your career journey.
+              To make sure we find the best fit for you, could I ask you a few
+              questions? This will help me understand your preferences and
+              aspirations better. Let’s get started!
+            </div>
+          </div>
+          <div class="what-are-your-favorite-subject-parent">
+            <b class="what-are-your"
+              >What are your favorite subjects or fields of study?</b
+            >
+            <div class="text-fieldoutlined">
+              <div class="input">
+                <div class="content">
+                  <div class="min-height"></div>
+                  <div class="label">Enter Email or Phone</div>
+                </div>
+              </div>
+              <div class="helpertext">
+                <div class="helper-text">Helper text</div>
+              </div>
+            </div>
+          </div>
+          <div class="what-activities-or-hobbies-do-parent">
+            <b class="what-activities-or"
+              >What activities or hobbies do you enjoy in your free time?
+            </b>
+            <div class="text-fieldoutlined1">
+              <div class="input1">
+                <div class="content1">
+                  <div class="min-height1"></div>
+                  <div class="label1">Enter Email or Phone</div>
+                </div>
+              </div>
+              <div class="helpertext1">
+                <div class="helper-text1">Helper text</div>
+              </div>
+            </div>
+          </div>
+          <div class="what-skills">
+            <b class="what-are-some"
+              >What are some skills or talents that you want to develop?</b
+            >
+            <div class="talents-want-parent">
+              <div class="talents-want">
+                <div class="text-fieldoutlined2">
+                  <div class="input2">
+                    <div class="content2">
+                      <div class="min-height2"></div>
+                      <div class="label2">Enter Email or Phone</div>
+                    </div>
+                  </div>
+                  <div class="helpertext2">
+                    <div class="helper-text2">Helper text</div>
+                  </div>
+                </div>
+              </div>
+              <b class="sign-in3">Sign in</b>
+            </div>
+          </div>
+          <div class="do-you-enjoy-working-with-your-parent">
+            <b class="do-you-enjoy">Do you enjoy working with your hands?</b>
+            <div class="text-fieldoutlined3">
+              <div class="input3">
+                <div class="content3">
+                  <div class="min-height3"></div>
+                  <div class="label3">Enter Email or Phone</div>
+                </div>
+              </div>
+              <div class="helpertext3">
+                <div class="helper-text3">Helper text</div>
+              </div>
+            </div>
+          </div>
+          <div class="do-you-enjoy-brainstorming-ide-parent">
+            <b class="do-you-enjoy1">Do you enjoy brainstorming ideas?</b>
+            <div class="text-fieldoutlined4">
+              <div class="input4">
+                <div class="content4">
+                  <div class="min-height4"></div>
+                  <div class="label4">Enter Email or Phone</div>
+                </div>
+              </div>
+              <div class="helpertext4">
+                <div class="helper-text4">Helper text</div>
+              </div>
+            </div>
+          </div>
+          <div class="do-you-enjoy-interacting-with-parent">
+            <b class="do-you-enjoy2">Do you enjoy interacting with people?</b>
+            <div class="text-fieldoutlined5">
+              <div class="input5">
+                <div class="content5">
+                  <div class="min-height5"></div>
+                  <div class="label5">Enter Email or Phone</div>
+                </div>
+              </div>
+              <div class="helpertext5">
+                <div class="helper-text5">Helper text</div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-wrapper">
+            <div class="rectangle-shape-parent">
+              <div class="rectangle-shape" id="rectangleShape"></div>
+              <b class="submit">Submit</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var welcomeJohDoe = document.getElementById("welcomeJohDoe");
+      if (welcomeJohDoe) {
+        welcomeJohDoe.addEventListener("click", function (e) {
+          window.location.href = "./signin.html";
+        });
+      }
+      
+      var face852716312801Icon = document.getElementById("face852716312801Icon");
+      if (face852716312801Icon) {
+        face852716312801Icon.addEventListener("click", function (e) {
+          window.location.href = "./profile-management.html";
+        });
+      }
+      
+      var rectangleShape = document.getElementById("rectangleShape");
+      if (rectangleShape) {
+        rectangleShape.addEventListener("click", function (e) {
+          window.location.href = "./home-user.html";
+        });
+      }
+      </script>
+  </body>
+</html>

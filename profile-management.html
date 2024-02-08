@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./profile-management.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="profile-management">
+      <img
+        class="arrow-down-icon1"
+        loading="eager"
+        alt=""
+        src="./public/arrowdown.svg"
+      />
+
+      <div class="sign-in-button"></div>
+      <div class="sign-in-button1"></div>
+      <header class="rectangle-parent">
+        <div class="frame-child"></div>
+        <div class="guided-journey1">
+          <b class="guided-journey2" id="gUIDEDJOURNEYText">GUIDED JOURNEY</b>
+        </div>
+      </header>
+      <div class="gear-solid-11"></div>
+      <section class="profile-management-inner">
+        <div class="frame-group">
+          <div class="sign-out-parent">
+            <div class="sign-out">
+              <b class="sign-out1" id="signOutText"> Sign out</b>
+            </div>
+            <img
+              class="log-out-6398176-1280-1-icon"
+              alt=""
+              src="./public/logout6398176-1280-1@2x.png"
+              id="logOut639817612801Icon"
+            />
+          </div>
+          <div class="fluent-eye-filled">
+            <div class="sign-in-group">
+              <b class="sign-in2">Sign in</b>
+              <img
+                class="fluenteye-20-filled-icon1"
+                loading="eager"
+                alt=""
+                src="./public/fluenteye20filled.svg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var gUIDEDJOURNEYText = document.getElementById("gUIDEDJOURNEYText");
+      if (gUIDEDJOURNEYText) {
+        gUIDEDJOURNEYText.addEventListener("click", function (e) {
+          window.location.href = "./home-user.html";
+        });
+      }
+      
+      var signOutText = document.getElementById("signOutText");
+      if (signOutText) {
+        signOutText.addEventListener("click", function (e) {
+          window.location.href = "./home-user.html";
+        });
+      }
+      
+      var logOut639817612801Icon = document.getElementById("logOut639817612801Icon");
+      if (logOut639817612801Icon) {
+        logOut639817612801Icon.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      </script>
+  </body>
+</html>

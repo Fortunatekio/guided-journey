@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home">
+      <img
+        class="arrow-down-icon"
+        loading="eager"
+        alt=""
+        src="./public/arrowdown.svg"
+      />
+
+      <div class="line-divider"></div>
+      <div class="home-child"></div>
+      <header class="group">
+        <b class="guided-journey">GUIDED JOURNEY</b>
+        <div class="register-form">
+          <div class="register" id="registerText">Register</div>
+          <div class="sign-in" id="signInText1">Sign in</div>
+        </div>
+      </header>
+      <div class="gear-solid-1"></div>
+      <section class="logo-stack-wrapper">
+        <div class="logo-stack">
+          <div class="welcome-text">
+            <div class="frame-parent">
+              <div class="welcome-to-gj-your-future-just-parent">
+                <h1 class="welcome-to-gj">
+                  Welcome to GJ Your Future Just Got a Makeover
+                </h1>
+                <h2 class="buckle-up-for">
+                  Buckle up for a rollercoaster ride of self-discovery! Our
+                  platform is your ticket to exploring careers in a way that's
+                  as exciting as playing your favorite game.
+                </h2>
+              </div>
+              <div class="facebook-button">
+                <div class="google-button">
+                  <img
+                    class="logo-google-icon"
+                    loading="eager"
+                    alt=""
+                    src="./public/logo-google.svg"
+                  />
+                </div>
+                <div class="twitter-button">
+                  <img
+                    class="logo-icon"
+                    loading="eager"
+                    alt=""
+                    src="./public/logo.svg"
+                  />
+                </div>
+                <button class="facebook-button1">
+                  <img class="logo-icon1" alt="" src="./public/logo-1.svg" />
+                </button>
+                <div class="apple-button">
+                  <img class="logo-icon2" alt="" src="./public/logo-2.svg" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sign-in-parent">
+            <b class="sign-in1">Sign in</b>
+            <img
+              class="fluenteye-20-filled-icon"
+              loading="eager"
+              alt=""
+              src="./public/fluenteye20filled.svg"
+            />
+
+            <div class="brooke-cagle-tlg2hcpitze-unspl">
+              <img
+                class="brooke-cagle-tlg2hcpitze-unspl-icon"
+                alt=""
+                src="./public/brookecagletlg2hcpitzeunsplash-1@2x.png"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var registerText = document.getElementById("registerText");
+      if (registerText) {
+        registerText.addEventListener("click", function (e) {
+          window.location.href = "./register.html";
+        });
+      }
+      
+      var signInText1 = document.getElementById("signInText1");
+      if (signInText1) {
+        signInText1.addEventListener("click", function (e) {
+          window.location.href = "./signin.html";
+        });
+      }
+      </script>
+  </body>
+</html>
